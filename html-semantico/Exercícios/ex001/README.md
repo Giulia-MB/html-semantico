@@ -11,6 +11,10 @@ https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/04%20-%20Prim
 
 Criar o primeiro documento HTML, utilizando a estrutura básica de uma página web.
 
+## 🌐 Visualização
+
+👉 [https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/exercicios/ex001/](https://github.com/Giulia-MB/FrontEnd-NTTdata/blob/main/html-semantico/Exerc%C3%ADcios/ex001/index.html)
+
 ## 🛠️ O que foi praticado
 
 * Estrutura básica do HTML (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)
