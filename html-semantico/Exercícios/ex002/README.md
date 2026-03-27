@@ -27,3 +27,6 @@ Compreender como o HTML interpreta textos, parágrafos e quebras de linha, além
 * Não é recomendado usar vários `<br>` para criar espaçamento (isso deve ser feito com CSS)
 * Para exibir símbolos especiais (como `<` e `>`), usamos entidades HTML
 
+## 🚀 Resultado
+
+Página HTML contendo parágrafos, quebras de linha e uso de caracteres especiais.
