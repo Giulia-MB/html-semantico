@@ -13,7 +13,7 @@ Criar o primeiro documento HTML, utilizando a estrutura básica de uma página w
 
 ## 🌐 Visualização
 
-👉 [https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/exercicios/ex001/](https://github.com/Giulia-MB/FrontEnd-NTTdata/blob/main/html-semantico/Exerc%C3%ADcios/ex001/index.html)
+👉 [https://github.com/Giulia-MB/FrontEnd-NTTdata/blob/main/html-semantico/exercicios/ex001/index.html](https://github.com/Giulia-MB/FrontEnd-NTTdata/blob/main/html-semantico/exercicios/ex001/index.html)
 
 ## 🛠️ O que foi praticado
 
