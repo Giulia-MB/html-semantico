@@ -11,6 +11,10 @@ https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/05%20-%20Cara
 
 Compreender como o HTML interpreta textos, parágrafos e quebras de linha, além de aprender a utilizar caracteres especiais corretamente.
 
+## 🌐 Visualização
+
+👉 [https://github.com/Giulia-MB/FrontEnd-NTTdata/blob/main/html-semantico/exercicios/ex002/index.html](https://github.com/Giulia-MB/FrontEnd-NTTdata/blob/main/html-semantico/exercicios/ex002/index.html)
+
 ## 🛠️ O que foi praticado
 
 * Uso da tag `<p>` para criação de parágrafos
