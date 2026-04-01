@@ -4,8 +4,7 @@
 
 Exercício proposto no material **"Primeiros passos em HTML"** do curso de HTML e CSS da plataforma "Curso em Vídeo".
 
-👉 Material original:
-https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/04%20-%20Primeiros%20passos%20HTML.pdf
+👉 [Material original](https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/04%20-%20Primeiros%20passos%20HTML.pdf)
 
 ## 💡 Objetivo
 
@@ -13,7 +12,7 @@ Criar o primeiro documento HTML, utilizando a estrutura básica de uma página w
 
 ## 🌐 Visualização
 
-👉 [https://github.com/Giulia-MB/FrontEnd-NTTdata/blob/main/html-semantico/exercicios/ex001/index.html](https://github.com/Giulia-MB/FrontEnd-NTTdata/blob/main/html-semantico/exercicios/ex001/index.html)
+👉 [Abri exercício](https://github.com/Giulia-MB/FrontEnd-NTTdata/blob/main/html-semantico/exercicios/ex001/index.html)
 
 ## 🛠️ O que foi praticado
 
