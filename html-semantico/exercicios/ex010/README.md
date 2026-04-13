@@ -13,7 +13,6 @@ Praticar a criação de hyperlinks em HTML, incluindo links externos, links inte
 ## 🌐 Visualização
 
 👉 [index.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/exercicios/ex010/index.html)  
-👉 [pag002.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/exercicios/ex010/pag002.html)
 
 ## 🛠️ O que foi praticado
 
@@ -44,11 +43,6 @@ O exercício contém:
   - Links externos para GitHub e YouTube  
   - Links internos para outras páginas do site  
   - Links para download de arquivos (PDF e ZIP) 
-
-* `pag002.html`  
-  - Navegação entre páginas  
-  - Link externo com `rel="nofollow"`  
-  - Link de retorno para a página principal 
 
 ## 🚀 Resultado
 
