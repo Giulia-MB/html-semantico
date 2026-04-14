@@ -2,11 +2,13 @@
 
 ## 📌 Enunciado
 
-Exercício proposto no capítulo sobre **Cores** do curso de HTML e CSS da plataforma "Curso em Vídeo".
+Exercício proposto no capítulo **"O Poder das Cores"** do curso de HTML e CSS da plataforma "Curso em Vídeo".
+
+👉 [Material original](https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf)
 
 ## 💡 Objetivo
 
-Praticar diferentes formas de definir cores em CSS, comparando a escrita por nome, código hexadecimal, RGB e HSL.
+Praticar diferentes formas de representar cores em CSS, entendendo como aplicar tons em elementos HTML utilizando sintaxes variadas.
 
 ## 🌐 Visualização
 
@@ -19,21 +21,22 @@ Praticar diferentes formas de definir cores em CSS, comparando a escrita por nom
 * Definição de cor por código hexadecimal (`#ffa500`, `#A52A2A`)  
 * Definição de cor por `rgb()`  
 * Definição de cor por `hsl()`  
+* Comparação visual entre diferentes formas de escrita  
 
 ## 📚 Aprendizados
 
-* CSS permite representar a mesma cor de formas diferentes  
-* Nomes de cores são mais simples, mas têm opções limitadas  
-* Hexadecimal é muito comum no desenvolvimento front-end  
-* `rgb()` trabalha com intensidade de vermelho, verde e azul  
-* `hsl()` usa matiz, saturação e luminosidade, facilitando alguns ajustes de cor  
-* Todas essas formas podem gerar o mesmo resultado visual, mudando apenas a forma de escrita 
+* CSS permite representar a mesma cor de diferentes maneiras  
+* Nomes de cores são simples, mas mais limitados  
+* Códigos hexadecimais são muito usados no desenvolvimento front-end  
+* `rgb()` define a intensidade de vermelho, verde e azul  
+* `hsl()` usa matiz, saturação e luminosidade, facilitando ajustes finos  
+* O VS Code possui seletor visual de cores, o que ajuda bastante na escolha de tons 
 
 ## 📄 Estrutura do exercício
 
-O exercício apresenta quatro exemplos visuais com o mesmo título e parágrafo, mudando apenas a forma de declarar as cores:
+O exercício apresenta quatro exemplos com o mesmo título e parágrafo, alterando apenas a forma de declarar as cores:
 
-* nomes de cores  
+* nome da cor  
 * hexadecimal  
 * RGB  
 * HSL  
@@ -46,4 +49,4 @@ Página HTML demonstrando quatro maneiras diferentes de definir cores em CSS, pe
 
 ## 💬 Observação
 
-Este exercício é importante para mostrar que, no CSS, uma mesma cor pode ser representada de várias formas. A escolha entre nome, hexadecimal, RGB ou HSL depende do contexto e da praticidade desejada.
+O capítulo também mostra a importância da harmonia de cores no design, explicando conceitos como círculo cromático, cores complementares, análogas e temperatura das cores. Este exercício é o primeiro passo para aplicar esse conhecimento na prática e construir páginas visualmente mais agradáveis. 
