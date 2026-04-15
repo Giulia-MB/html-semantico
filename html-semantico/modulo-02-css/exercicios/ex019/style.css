@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(236, 203, 161);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Em HTML: id = "" e class = ""
+Em CSS: id = "#" e class = "."*/
+h1 {
+    color:rgb(168, 79, 16);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(218, 170, 107);
+    color: white;
+}
+
+h2 {
+    color: chocolate;
+}
+
+.basico {
+    color: rgb(50, 125, 12);
+    padding: 10px;
+}
+
+.intermediario {
+    color: rgb(165, 156, 24);
+    padding: 10px;
+}
+
+.avancado {
+    color: rgb(210, 51, 30);
+    padding: 10px;
+}
+
+.destaque {
+    background-color: rgba(202, 202, 103, 0.812);
+}
