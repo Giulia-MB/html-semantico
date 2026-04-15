@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas absolutas - cm, mm, in, px, pt e pc 
+            Medidas relativas - em, ex, ch, rem, vw, vh, vmin, vmax e %
+            */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* Era assim: 
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder; (ligther, normal, bold e bolder)
+            font-size: 3em;
+            font-style: italic; (normal, italic e oblique)*/
+            
+            /* Ficou assim:
+            Shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;    
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae fugiat autem aut quibusdam vel aperiam quod? Fugiat voluptatem voluptatibus suscipit odio similique laborum vel! Quasi officia totam repellendus eius odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatem, illo libero qui, consequuntur porro mollitia quod eligendi commodi placeat sint voluptas accusamus dolore! Corrupti quis adipisci suscipit aliquam ad. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum porro explicabo eius adipisci suscipit eaque ipsam placeat nam vero obcaecati, laborum, beatae delectus minima culpa maiores dolore temporibus distinctio nobis.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid facilis temporibus odio quia molestiae quis harum dignissimos unde id error fugiat deleniti corrupti saepe doloribus odit, impedit inventore ipsum dolores!</p>
+</body>
+</html>
