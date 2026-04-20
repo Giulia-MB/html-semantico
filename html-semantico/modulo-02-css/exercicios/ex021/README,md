@@ -1,0 +1,109 @@
+# 📄 Exercício 021 - Módulo 02 - Capítulo 16
+
+## 📌 Enunciado
+
+Exercício baseado no capítulo **"O Modelo de Caixas"** do curso de HTML e CSS do **Curso em Vídeo**.
+
+👉 Material de apoio: https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/16%20-%20Modelo%20de%20Caixas.pdf
+
+## 💡 Objetivo
+
+Praticar o **box model** do CSS, entendendo como funcionam as propriedades de tamanho, borda, padding, margin, outline, sombras, vértices arredondados e o uso de **grouping tags** semânticas.
+
+## 🌐 Arquivos do exercício
+
+- `caixa01.html` — box model com elementos **block-level** e **inline-level**  
+- `caixa02.html` — estrutura com **grouping tags** semânticas e exemplo de “bola” usando `border-radius`  
+- `caixa03.html` — exemplo de **borda personalizada com imagem** (`border-image`)  
+
+## 🛠️ O que foi praticado
+
+### 📦 caixa01.html — Modelo de caixas
+
+- uso de `width` e `height` para definir o tamanho da caixa  
+- uso de `border` em shorthand  
+- uso de `padding` para espaçamento interno  
+- uso de `margin` para espaçamento externo  
+- uso de `margin: auto` para centralização horizontal  
+- uso de `outline` para contorno externo  
+- comparação entre:
+  - elemento `h1` como **box-level**
+  - elemento `a` como **inline-level** :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+
+### 🧱 caixa02.html — Grouping tags e semântica
+
+- uso das tags semânticas:
+  - `header`
+  - `nav`
+  - `main`
+  - `section`
+  - `article`
+  - `aside`
+  - `footer`
+- aplicação de `box-shadow` no menu de navegação  
+- uso de `border-radius` no bloco principal  
+- criação de uma forma circular com:
+  - `width`
+  - `height`
+  - `border-radius: 50%` :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+
+### 🖼️ caixa03.html — Borda personalizada
+
+- uso de `border-image-source`  
+- uso de `border-image-slice`  
+- uso de `border-image-repeat`  
+- aplicação da shorthand:
+  - `border-image: url(borda.png) 27 repeat;`
+- prática com bordas decoradas usando imagem externa :contentReference[oaicite:5]{index=5}
+
+## 📚 Aprendizados
+
+- grande parte dos elementos HTML funciona como **caixas** no navegador  
+- o modelo de caixas é formado por:
+  - conteúdo
+  - padding
+  - border
+  - margin
+  - outline  
+- elementos **block-level** ocupam a linha toda  
+- elementos **inline-level** ocupam apenas o espaço do conteúdo  
+- sombras ajudam a dar profundidade visual com `box-shadow`  
+- cantos arredondados são criados com `border-radius`  
+- tags semânticas ajudam a organizar melhor a estrutura da página  
+- bordas também podem ser personalizadas com imagens, usando `border-image` :contentReference[oaicite:6]{index=6}
+
+## 📄 Estrutura do exercício
+
+### caixa01.html
+Página demonstrando:
+
+- tamanho de caixa  
+- borda  
+- padding  
+- margin  
+- outline  
+- diferença entre block-level e inline-level  
+
+### caixa02.html
+Página demonstrando:
+
+- estrutura semântica de site  
+- menu com sombra  
+- conteúdo central com cantos arredondados  
+- rodapé estilizado  
+- elemento circular com CSS  
+
+### caixa03.html
+Página demonstrando:
+
+- uso de imagem como borda decorativa  
+- shorthand de `border-image`  
+- repetição da imagem na moldura  
+
+## 🚀 Resultado
+
+O exercício mostrou na prática como os elementos HTML são organizados em caixas e como o CSS pode controlar espaçamento, bordas, sombra, contorno, arredondamento e estrutura visual de uma página.
+
+## 💬 Observação
+
+Este capítulo é um dos mais importantes do módulo, porque o **modelo de caixas** é a base da construção de layouts em CSS. Entender essas propriedades facilita muito a criação de páginas mais organizadas, bonitas e bem estruturadas.
