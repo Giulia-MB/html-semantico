@@ -4,7 +4,7 @@
 
 Exercício proposto no capítulo **"Seletores personalizados em CSS"** do curso de HTML e CSS da plataforma "Curso em Vídeo".
 
-👉 [Material original](https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-%20Seletores%20personalizados.pdf)
+👉 [Material original](https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf)
 
 ## 💡 Objetivo
 

@@ -12,8 +12,8 @@ Praticar a aplicação de estilos CSS externos, reutilizando a mesma folha de es
 
 ## 🌐 Visualização
 
-👉 [index.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/exercicios/ex015/index.html)  
-👉 [pagina02.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/exercicios/ex015/pagina02.html)
+👉 [index.html](https://giulia-mb.github.io/html-semantico/modulo-01-html5-css3/exercicios/ex015/index.html)  
+👉 [pagina02.html](https://giulia-mb.github.io/html-semantico/modulo-01-html5-css3/exercicios/ex015/pagina02.html)
 
 ## 🛠️ O que foi praticado
 

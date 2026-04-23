@@ -4,7 +4,7 @@
 
 Exercício baseado no capítulo **"O Modelo de Caixas"** do curso de HTML e CSS do **Curso em Vídeo**.
 
-👉 Material de apoio: https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/16%20-%20Modelo%20de%20Caixas.pdf
+👉 [Material de apoio] (https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/16%20-%20Modelo%20de%20Caixas.pdf)
 
 ## 💡 Objetivo
 
