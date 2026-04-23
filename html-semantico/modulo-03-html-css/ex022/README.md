@@ -12,11 +12,11 @@ Aprender a aplicar imagens como plano de fundo em elementos HTML, personalizando
 
 ## 🌐 Visualização
 
-👉 [fundo001.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-02-css/exercicios/ex022/fundo001.html)  
-👉 [fundo002.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-02-css/exercicios/ex022/fundo002.html)  
-👉 [fundo003.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-02-css/exercicios/ex022/fundo003.html)  
-👉 [fundo004.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-02-css/exercicios/ex022/fundo004.html)  
-👉 [fundo005.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-02-css/exercicios/ex022/fundo005.html)
+👉 [fundo001.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-03-html-css/exercicios/ex022/fundo001.html)  
+👉 [fundo002.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-03-html-css/exercicios/ex022/fundo002.html)  
+👉 [fundo003.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-03-html-css/exercicios/ex022/fundo003.html)  
+👉 [fundo004.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-03-html-css/exercicios/ex022/fundo004.html)  
+👉 [fundo005.html](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-03-html-css/exercicios/ex022/fundo005.html)
 
 ## 🛠️ O que foi praticado
 
