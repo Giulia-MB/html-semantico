@@ -63,7 +63,7 @@ Curso ministrado por **Gustavo Guanabara**, referência nacional no ensino de te
 
 ### Módulo 02
 
-- <a href="https://giulia-mb.github.io/html-semantico/modulo-02-html5-css3/desafios/d010/" target="_blank">Desafio 10 - Desafio Android</a>
+- <a href="ttps://giulia-mb.github.io/html-semantico/modulo-02-html5-css3/desafios/d010/android.html" target="_blank">Desafio 10 - Desafio Android</a>
 
 ### Módulo 03
 

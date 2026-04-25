@@ -13,7 +13,7 @@ Criar um mini-projeto em formato de página de notícia, aplicando os conceitos 
 
 ## 🌐 Visualização
 
-👉 [Projeto Android](https://giulia-mb.github.io/FrontEnd-NTTdata/html-semantico/modulo-02-css/desafios/d010/android.html)
+👉 [Projeto Android](https://giulia-mb.github.io/html-semantico/modulo-02-html5-css3/desafios/d010/android.html)
 
 ## 🛠️ O que foi praticado
 
