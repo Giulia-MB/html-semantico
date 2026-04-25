@@ -8,7 +8,7 @@ Desafio proposto no capítulo **"Tabelas"** do curso de HTML e CSS da plataforma
 
 ## 💡 Objetivo
 
-Criar uma tabela escolar com disciplinas divididas por áreas, utilizando cabeçalhos mesclados, agrupamento de linhas e colunas, além de linhas de médias por categoria.
+Criar uma tabela escolar com disciplinas divididas por áreas, utilizando cabeçalhos mesclados, agrupamento de linhas e colunas, escopo semântico e linhas de médias por categoria.
 
 ## 🌐 Visualização
 
@@ -18,12 +18,20 @@ Criar uma tabela escolar com disciplinas divididas por áreas, utilizando cabeç
 
 * Criação de tabelas estruturadas com `table`
 * Uso de cabeçalhos com `th`
+* Uso de células de dados com `td`
+* Organização semântica com `thead` e `tbody`
 * Mesclagem vertical com `rowspan`
 * Mesclagem horizontal com `colspan`
-* Organização semântica com `thead` e `tbody`
+* Aplicação de `scope`
+* Uso de `scope="col"`
+* Uso de `scope="colgroup"`
+* Uso de `scope="row"`
+* Uso de `scope="rowgroup"`
+* Agrupamento de disciplinas por área
+* Linhas de médias por categoria
 * Alinhamento de textos e números
-* Destaque visual para linhas de média
-* Estilização com bordas e cores
+* Destaque visual com cores e negrito
+* Estilização com bordas e contraste
 
 ## 📚 Aprendizados
 
@@ -33,6 +41,11 @@ Criar uma tabela escolar com disciplinas divididas por áreas, utilizando cabeç
 * Uso de `colspan` para unir colunas relacionadas  
 * Como agrupar conteúdos por categoria dentro da mesma tabela  
 * Importância da semântica em tabelas para organização e leitura  
+* `scope="col"` identifica cabeçalhos de coluna  
+* `scope="row"` identifica cabeçalhos de linha  
+* `scope="colgroup"` identifica grupo de colunas  
+* `scope="rowgroup"` identifica grupo de linhas  
+* Linhas-resumo podem ser destacadas visualmente para facilitar leitura  
 
 ## 📄 Estrutura do desafio
 
@@ -44,14 +57,15 @@ Tabela contendo:
 * área de Humanas  
 * disciplinas organizadas por grupo  
 * notas divididas em duas colunas  
-* cálculo de médias por área  
+* médias por área  
+* cabeçalhos com escopo semântico correto  
 
 ## 🚀 Resultado
 
-Tabela acadêmica organizada visualmente, com estrutura semântica correta e uso avançado de mesclagem de células.
+Tabela acadêmica organizada visualmente, com estrutura semântica correta, acessibilidade melhorada e uso avançado de mesclagem de células.
 
 ---
 
 ## 💬 Observação
 
-Este desafio é excelente para praticar raciocínio estrutural em tabelas HTML, especialmente no uso de `rowspan` e `colspan`, recursos muito utilizados em boletins, relatórios e dashboards.
+Este desafio é excelente para praticar raciocínio estrutural em tabelas HTML, especialmente no uso de `rowspan`, `colspan` e `scope`, recursos muito utilizados em boletins, relatórios e dashboards.
