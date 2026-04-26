@@ -2,7 +2,7 @@
 
 Olá! Meu nome é **Giulia Bertulucci**. Sou graduada em **Engenharia de Computação** e este repositório reúne minha evolução nos estudos de desenvolvimento Front-end.
 
-Os conteúdos são baseados na **Trilha Front-End Júnior da NTT Data**, e foram organizados de forma progressiva para simular a evolução de um desenvolvedor.
+Os conteúdos são baseados na **Trilha Front-end Júnior da NTT Data**, e foram organizados de forma progressiva para simular a evolução de um desenvolvedor.
 
 Este repositório **html-semantico** concentra os estudos das etapas iniciais da trilha, com foco em:
 
@@ -70,7 +70,7 @@ Curso ministrado por **Gustavo Guanabara**, referência nacional no ensino de te
 - <a href="https://giulia-mb.github.io/html-semantico/modulo-03-html5-css3/desafios/d011/" target="_blank">Desafio 11 - Desafio do Astronauta</a>
 - <a href="https://giulia-mb.github.io/html-semantico/modulo-03-html5-css3/desafios/d012/" target="_blank">Desafio 12 - Desafio do Cordel Moderno</a>
 - <a href="https://giulia-mb.github.io/html-semantico/modulo-03-html5-css3/desafios/dextra01/tabela001.html" target="_blank">Desafio Extra 01 - Tabelas Avançadas</a>
-- <a href="https://giulia-mb.github.io/html-semantico/modulo-03-html5-css3/desafios/dextra02/index.html" target="_blank">Desafio Extra 02 - Tabela Boletim Escolar</a>
+- <a href="https://giulia-mb.github.io/html-semantico/modulo-03-html5-css3/desafios/dextra02/tabela001.html" target="_blank">Desafio Extra 02 - Tabela Boletim Escolar</a>
 
 ### Módulo 04
 
