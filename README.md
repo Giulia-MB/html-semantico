@@ -35,15 +35,15 @@ O objetivo desta fase é garantir domínio dos fundamentos essenciais, que servi
 
 ## ▶️ Execute os entregáveis aqui:
 
-- <a href="https://giulia-mb.github.io/html-semantico/entregaveis/projeto-institucional/" target="_blank">Criar uma página institucional completa</a>
-- <a href="https://giulia-mb.github.io/html-semantico/entregaveis/formulario-validacoes/" target="_blank">Criar formulário com campos e validações básicas</a>
-- <a href="https://giulia-mb.github.io/html-semantico/entregaveis/projeto-responsivo/" target="_blank">Projeto atualizado com responsividade</a>
+- <a href="https://giulia-mb.github.io/html-semantico/site-institucional/index.html" target="_blank">Criar uma página institucional completa</a>
+- <a href="https://giulia-mb.github.io/html-semantico/site-institucional/formulario.html" target="_blank">Criar formulário com campos e validações básicas</a>
+- <a href="https://giulia-mb.github.io/html-semantico/site-institucional-responsivo/index.html" target="_blank">Site atualizado com responsividade</a>
+- <a href="https://giulia-mb.github.io/html-semantico/site-institucional-responsivo/formulario.html" target="_blank">Formulário atualizado com responsividade</a>
 
 ## 💻 Acesse o código dos entregáveis aqui:
 
-- <a href="https://github.com/giulia-mb/html-semantico/tree/main/entregaveis/projeto-institucional" target="_blank">Página institucional completa</a>
-- <a href="https://github.com/giulia-mb/html-semantico/tree/main/entregaveis/formulario-validacoes" target="_blank">Formulário com validações</a>
-- <a href="https://github.com/giulia-mb/html-semantico/tree/main/entregaveis/projeto-responsivo" target="_blank">Projeto responsivo</a>
+- <a href="https://github.com/giulia-mb/html-semantico/tree/main/site-institucional" target="_blank">Página institucional</a> completa (SEM responsividade) com formulário
+- <a href="https://github.com/giulia-mb/html-semantico/tree/main/site-institucional" target="_blank">Página institucional</a> completa (COM responsividade - Flexbox e Media Queries) com formulário
 
 ---
 
