@@ -749,7 +749,6 @@ footer {
         height: auto;
     }
 
-    /* Serviços: 1 por linha */
     .container-servicos {
         display: flex;
         flex-wrap: wrap;
