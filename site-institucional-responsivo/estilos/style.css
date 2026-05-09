@@ -1,97 +1,90 @@
 @charset "UTF-8";
 
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
 }
 
 header {
     background-color: #f4f4f4;
+    padding: 25px 30px 0px 30px;
     border-bottom: 2px solid #dcdcdc;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 999;
 }
 
-.navbar {
+nav {
     width: 100%;
-    padding: 20px 30px;
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-    align-items: center;
-    gap: 15px;
+    text-align: right;
+    line-height: 60px;
+    height: 60px;
+}
+
+.logo,
+.menu,
+.icones {
+    vertical-align: middle;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    display: inline-block;
 }
 
 .logo img {
+    display: block;
     width: 220px;
     height: auto;
 }
 
-.menu-toggle {
-    display: none;
-}
-
-.botao-menu {
-    width: 42px;
-    height: 42px;
-    border-radius: 5px;
-    background-color: #0b6b2d;
-    color: white;
-    display: grid;
-    place-items: center;
-    cursor: pointer;
-}
-
 .menu {
-    grid-column: 1 / -1;
-    display: none;
+    display: inline-block;
+    vertical-align: middle;
     list-style: none;
-    background-color: #f4f4f4;
-}
-
-.menu-toggle:checked ~ .menu {
-    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .menu li {
-    border-top: 1px solid #dcdcdc;
+    display: inline-block;
+    margin-right: 18px;
 }
 
 .menu a {
-    display: block;
     color: black;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    padding: 12px 10px;
+    padding: 8px 16px;
     transition: 0.3s;
 }
 
 .menu a:hover {
     background-color: #0b6b2d62;
     color: white;
+    border-radius: 8px;
 }
 
 .icones {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
 }
 
-.icones a,
-.icones details {
+.icones a {
     display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
 }
 
 .icones a {
     text-decoration: none;
+    vertical-align: middle;
     color: black;
 }
 
@@ -99,69 +92,38 @@ header {
     color: black;
 }
 
-details {
-    position: relative;
+.icones a:last-child {
+    margin-right: 0;
 }
 
-summary {
-    display: grid;
-    place-items: center;
-    list-style: none;
-    cursor: pointer;
-}
-
-summary::-webkit-details-marker {
-    display: none;
-}
-
-.icones a,
-summary {
-    width: 40px;
-    height: 40px;
+.icones a {
+    width: 44px;
+    height: 44px;
     padding: 0;
     border-radius: 50%;
     text-align: center;
-    line-height: 40px;
+    line-height: 44px;
     transition: 0.2s;
 }
 
-.icones a:hover,
-summary:hover {
+.icones a:hover {
     background-color: #0b6b2d62;
 }
 
-.icones a:hover .material-symbols-outlined,
-summary:hover .material-symbols-outlined {
+.icones a:hover .material-symbols-outlined {
     color: white;
 }
 
 .material-symbols-outlined {
     font-size: 28px;
-    line-height: 40px;
+    line-height: 44px;
+    vertical-align: middle;
 }
 
-.idiomas {
-    position: absolute;
-    top: 45px;
-    right: 0;
-    list-style: none;
-    margin: 0;
-    padding: 8px 12px;
-    background-color: white;
-    border: 1px solid #ccc;
-    z-index: 20;
-    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
-}
-
-.idiomas li {
+header::after {
+    content: "";
     display: block;
-    margin: 8px 0;
-}
-
-.idiomas a {
-    color: black;
-    text-decoration: none;
-    font-size: 14px;
+    clear: both;
 }
 
 main {
@@ -209,61 +171,64 @@ main a {
     padding: 80px 40px;
     color: white;
     text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 #localizacao::before {
     content: "";
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 0;
 }
 
-#localizacao > * {
+#localizacao * {
     position: relative;
     z-index: 1;
 }
 
 #localizacao h2 {
     color: white;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 25px;
 }
 
 #localizacao > p {
-    margin-bottom: 45px;
-    font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .card-contato {
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
-
-    width: 100%;
-    max-width: 320px;
-    min-height: 90px;
+    display: inline-block;
+    width: 250px;
+    height: 90px;
     padding: 15px 20px;
     border-radius: 10px;
     background-color: #0b6b2d;
     color: white;
     text-align: left;
-    margin: 10px auto;
+    vertical-align: top;
+    margin: 10px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .icone-contato {
+    display: inline-block;
     font-size: 28px;
-    width: 35px;
+    vertical-align: top;
+    margin-right: 15px;
     margin-top: 5px;
+    width: 35px;
     text-align: center;
-    flex: 0 0 35px;
 }
 
 .conteudo-card {
-    flex: 1;
-    min-width: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 60px);
 }
 
 .card-contato h3 {
@@ -287,7 +252,7 @@ main a {
 }
 
 .mapa iframe {
-    width: 100%;
+    width: 80%;
     height: 350px;
     border: 0;
     border-radius: 20px;
@@ -316,19 +281,23 @@ main a {
 }
 
 .container-cursos {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
     width: 90%;
     margin: 0 auto;
 }
 
 .link-card-curso {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
     text-decoration: none;
     color: inherit;
+    vertical-align: top;
 }
 
 .card-curso {
+    display: block;
+    width: 100%;
+    height: 330px;
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
@@ -351,8 +320,9 @@ main a {
 
 .card-curso h3 {
     color: #0b6b2d;
-    margin: 20px 15px 10px 15px;
+    margin: 20px 15px 10px 10px;
     font-size: 1.3em;
+    height: 40px;
 }
 
 .card-curso p {
@@ -360,6 +330,7 @@ main a {
     color: #666;
     font-size: 0.95em;
     line-height: 1.5;
+    height: 70px;
     padding-bottom: 0;
 }
 
@@ -384,29 +355,25 @@ main a {
 }
 
 .container-servicos {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
     width: 90%;
     margin: 0 auto;
 }
 
 .card-servico {
-    min-height: 120px;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin: 15px;
     padding: 25px 20px;
     background-color: white;
     border: 1px solid #e0e0e0;
     border-radius: 20px;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
     text-align: center;
+    vertical-align: top;
     text-decoration: none;
     color: #0b6b2d;
     transition: 0.3s;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .card-servico:hover {
@@ -427,18 +394,11 @@ main a {
     font-weight: bold;
 }
 
-footer {
-    background-color: #0b6b2d;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 0.9em;
-}
-
 #formulario {
     width: 90%;
+    margin-top: 20px;
     margin: 0 auto;
-    padding: 20px 0 40px 0;
+    padding: 0px 0 40px 0;
 }
 
 #formulario fieldset {
@@ -518,55 +478,292 @@ footer {
     background-color: #084d21;
 }
 
-@media screen and (min-width: 768px) {
-    .card-contato {
-        display: inline-flex;
-        width: 31%;
-        max-width: 350px;
-        margin: 20px 12px;
-        vertical-align: top;
-    }
-    
-    .contatos-grid {
-        grid-template-columns: repeat(3, 1fr);
-        max-width: 1100px;
-        margin: auto;
-    }
-
-    .container-cursos,
-    .container-servicos {
-        grid-template-columns: repeat(2, 1fr);
-    }
+footer {
+    background-color: #0b6b2d;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    font-size: 0.9em;
 }
 
-@media screen and (min-width: 1024px) {
-    .navbar {
-        grid-template-columns: auto 1fr auto;
+.menu-toggle {
+    display: none;
+}
+
+.botao-menu {
+    display: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #0b6b2d;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* =============================================
+   TABLET: 768px até 1023px
+   ============================================= */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    header {
+        padding: 15px 20px 0 20px;
     }
 
-    .botao-menu {
-        display: none;
+    nav {
+        height: auto;
+        line-height: normal;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 8px;
+    }
+
+    .logo {
+        float: none;
+        flex: 1;
+        text-align: left;
     }
 
     .menu {
-        grid-column: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        background-color: transparent;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 2px;
     }
 
     .menu li {
-        border-top: none;
+        margin-right: 0;
     }
 
     .menu a {
+        font-size: 14px;
         padding: 6px 10px;
     }
 
-    .container-cursos,
+    .icones {
+        margin-left: 10px;
+    }
+
+    main h1 {
+        margin-bottom: 10px;
+    }
+
+    .mapa iframe {
+        width: 80%;
+    }
+
+    #localizacao {
+        padding: 60px 20px;
+    }
+
+    .card-contato {
+        display: inline-block;
+        width: 42%;
+        max-width: 280px;
+        height: auto;
+        min-height: 90px;
+        margin: 8px 2%;
+        overflow: hidden;
+        vertical-align: top;
+    }
+
+    .conteudo-card {
+        width: calc(100% - 55px);
+        overflow: hidden;
+    }
+
+    .card-contato p {
+        word-break: break-word;
+        overflow-wrap: break-word;
+        font-size: 14px;
+    }
+
+    .container-cursos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .link-card-curso {
+        width: 280px;
+        margin: 0;
+    }
+
+    .card-curso {
+        height: 330px;
+    }
+
     .container-servicos {
-        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+    }
+
+    .card-servico {
+        display: inline-block;
+        width: 40%;
+        max-width: 280px;
+        min-width: 250px;
+        height: 100px;
+        margin: 10px;
+        vertical-align: top;
+    }
+}
+
+/* =============================================
+   MOBILE: até 767px
+   ============================================= */
+@media screen and (max-width: 767px) {
+
+    header {
+        padding: 12px 15px 0 15px;
+    }
+
+    nav {
+        height: auto;
+        line-height: normal;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+        gap: 8px;
+    }
+
+    .logo {
+        float: none;
+        flex: 1;
+    }
+
+    .logo img {
+        width: 160px;
+    }
+
+    .botao-menu {
+        display: flex;
+    }
+
+    .icones {
+        display: inline-flex;
+        margin-left: 0;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+        order: 3;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 5px 0 10px 0;
+        gap: 0;
+        background-color: #f4f4f4;
+        justify-content: flex-start;
+    }
+
+    .menu li {
+        border-top: 1px solid #dcdcdc;
+        margin-right: 0;
+    }
+
+    .menu a {
+        display: block;
+        padding: 12px 15px;
+        font-size: 15px;
+    }
+
+    .menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+
+    main {
+        padding: 15px 15px;
+    }
+
+    main h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    main h2 {
+        font-size: 22px;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+
+    #localizacao {
+        padding: 40px 15px;
+    }
+
+    .card-contato {
+        display: flex;
+        width: 90%;
+        max-width: 320px;
+        height: auto;
+        min-height: 80px;
+        margin: 8px auto;
+        overflow: hidden;
+    }
+
+    .conteudo-card {
+        width: calc(100% - 55px);
+        overflow: hidden;
+    }
+
+    .card-contato p {
+        word-break: break-word;
+        overflow-wrap: break-word;
+        font-size: 14px;
+    }
+
+    .mapa iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .container-cursos {
+        text-align: center;
+    }
+
+    .link-card-curso {
+        width: 90%;
+        max-width: 340px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .card-curso {
+        height: auto;
+    }
+
+    .card-curso h3 {
+        height: auto;
+    }
+
+    .card-curso p {
+        height: auto;
+    }
+
+    /* Serviços: 1 por linha */
+    .container-servicos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-servico {
+        width: 90%;
+        max-width: 340px;
+        height: auto;
+        padding: 20px;
+    }
+
+    #formulario {
+        width: 100%;
     }
 }
